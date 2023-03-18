@@ -1,0 +1,7 @@
+The whole function of the codes is so that it works as a calculator where a user just have to 
+put a certain mathematical combination together with the operator and by just clicking the 
+equals button it will then calculate and show the result.
+
+
+
+**Brief explanations are also included to the "script.js"
