@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+</head>
+<body>
+
+		<div id="calculator">
+		<input id="output" type="text" name="output" placeholder="Type here...    ex.10+10">
+		</div>
+		
+		<div id="operators"></div>
+		<input id="result" placeholder=" result">
+
+<script type="text/javascript" src="script.js"></script>
+
+		<style>
+		body {
+			background: rgb(131,50,180);
+			background: #ffcc99;
+		}
+
+		#operators {
+			width:8%;
+			content:"";
+		}
+		
+		#result {
+			width: 10%;
+			margin-top:5px;
+			margin-left:15px;
+			border: none;
+			font-size: 2.5em;
+			font-weight: 100;
+			border-bottom: 2px solid #f6f6f6
+		}
+
+		#output {
+			width: 50%;
+			padding: 25px 10px;
+			margin: 10px auto;
+			border: none;
+			color: #646464;
+			font-size: 2.5em;
+			font-weight: 100;
+			border-bottom: 2px solid #f6f6f6;
+		}
+
+		.btn {
+			width: 25%;
+			padding: 10px 0;
+			margin: 5px;
+			color: #646464;
+			font-weight: 900;
+			font-size: 1.25em;
+			border: none;
+			background: transparent;
+			float: right;
+		}
+
+		.btn.operator {
+			width: 70px;
+			background: #f6f6f6;
+			border-radius: 100px;
+			float:left;
+		}
+	</style>
+</body>
+</html>
