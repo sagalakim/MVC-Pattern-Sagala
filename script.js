@@ -1,9 +1,9 @@
-model = {
+model = { 				//Used to reflect or store added items
 	buttons: [],
 }
 
 
-controller = {
+controller = { 			//Used to receive updates from view and also notifies model to add Item/Element
 	init: function() {
 		this.generateButtons();
 		view.render();
@@ -47,7 +47,7 @@ controller = {
 }
 
 
-view = {
+view = { 				//Used to display the output or in other words it is for UI
 	render: function() {
 		buttonsList = controller.getButtons();
 
